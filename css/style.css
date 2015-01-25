@@ -7,36 +7,44 @@ height: 100%;
 */
 
 #emerald{
-    font-family:'exo-black';
-    letter-spacing: 2px;
-    padding-top: 1px;   
+    padding-top: 1em;
+     
 }
 .share-buttons img {
-    width: 35%;
     margin-right: 10%; 
-    border: 0;
-    box-shadow: 0;
-    padding-top: 2px;
+    padding-top: 1em;
+    z-index: 100;
+    width: 35%;
 }
-#iti{
-	position: absolute;
-	font-size: 800%;
-	padding-left: 20%;
-	padding-top: 55%;
-	padding-bottom: 20%;
+.ontop{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+#title{
+	font-size: 150px;
 	font-family: times;
-	color: #080808;	
+	color: #080808;
+	line-height: 1em	
+}
+#lede{
+	font-size: 50px;
+	color: black;
+}
+#byLine{
+	line-height: 3em;
 }
 .vertLine{
 	border-left: solid #000000;
 	position: absolute;
-	left: 5%;
+	left: 2%;
 	float: left;
 	overflow: hidden;
 }
 .p{
-	padding-left: 2%;
+	padding-left: 0;
 	padding-top: 1%;
+	font-size: 18px;
 }
 #aside{
 	padding-top: 15%;
@@ -44,10 +52,45 @@ height: 100%;
 	padding-bottom: 5%; 
 }
 .hrLn{
-	margin-right: 15%;
-	margin-left: 12%;
 	background-color: #080808;
-	height: 1px;
+	height: 0.15em;
+}
+#uno{
+	margin-right: 23%;
+}
+#dos{
+	margin-right: 33%;
+}
+#tres{
+	margin-left: 35%;
+}
+#container1{
+	margin-left: 4.5%;
+}
+.pullquote{
+	font-family: serif;
+	font-weight: bold;
+	position: absolute;
+	background-color: #FFFFFF;
+}
+#begquo{
+	width: 35%;
+	font-size: 45px;
+	margin-top: 33%;
+	padding-left: 1.5%;
+	padding-right: 1%; 
+}
+#endquo{
+	width: 35%;
+	font-size: 35px;
+	margin-top: 33%;
+	padding-left: 1.5%;
+	padding-right: 1%;
+}
+#said{
+	font-size: 50%;
+	font-family: serif;
+	font-weight: normal;
 }
 #quote{
 	text-align: center;
@@ -55,6 +98,13 @@ height: 100%;
 	font-size: 200%;
 	font-weight: bold;
 }
+.sm{
+	position: relative;
+	margin-top: 1%;
+	margin-bottom: 1%; 
+}
+
+
 
 
 
