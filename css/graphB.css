@@ -10,10 +10,10 @@
     background-color: #808080;
     width: 10%;
     margin-left: 5.3%;
-    padding-bottom: 0; 
+    padding-bottom: 0%; 
 }
 .names {
-   padding-left: 5.3%; 
+   padding-left: 6%; 
     display: inline-block;
     position: relative;
 }
@@ -99,3 +99,19 @@
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
 }
+@media only screen and (max-width: 990px){
+    .cont{
+        padding-left: 12%;
+    }
+    .names{
+        padding-left: 6%;
+    }
+    .names p{
+        padding-left: 5%;
+        font-size: 10px;
+    }
+    .bar{
+        width: 15%;
+    }
+
+

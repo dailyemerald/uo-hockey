@@ -1,38 +1,28 @@
-/*.slideme {
-max-width: 990px;
-max-height: 450px;
-width: 100%;
-height: 100%;
-}
-*/
-
-#emerald{
-    padding-top: 1em;
-     
-}
 .share-buttons img {
     margin-right: 10%; 
-    padding-top: 1em;
-    z-index: 100;
     width: 35%;
+    z-index: 100;
+    position: relative;
 }
-.ontop{
+#ontop{
 	position: fixed;
-	width: 100%;
 	z-index: 100;
+	width: 100%;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%; 
 }
 #title{
-	font-size: 150px;
+	font-size: ;
 	font-family: times;
-	color: #080808;
-	line-height: 1em	
+	color: #080808;	
 }
 #lede{
-	font-size: 50px;
+	font-size: ;
 	color: black;
 }
-#byLine{
-	line-height: 3em;
+#container1{
+	margin-left: 5%;
 }
 .vertLine{
 	border-left: solid #000000;
@@ -64,9 +54,6 @@ height: 100%;
 #tres{
 	margin-left: 35%;
 }
-#container1{
-	margin-left: 4.5%;
-}
 .pullquote{
 	font-family: serif;
 	font-weight: bold;
@@ -75,20 +62,24 @@ height: 100%;
 }
 #begquo{
 	width: 35%;
-	font-size: 45px;
-	margin-top: 33%;
+	margin-top: 28%;
 	padding-left: 1.5%;
-	padding-right: 1%; 
+	padding-right: 1%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	font-size: 24px;
 }
 #endquo{
 	width: 35%;
-	font-size: 35px;
-	margin-top: 33%;
+	margin-top: 20%;
 	padding-left: 1.5%;
 	padding-right: 1%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	font-size: 24px;
 }
 #said{
-	font-size: 50%;
+	font-size: 75%;
 	font-family: serif;
 	font-weight: normal;
 }
@@ -102,6 +93,38 @@ height: 100%;
 	position: relative;
 	margin-top: 1%;
 	margin-bottom: 1%; 
+}
+@media only screen and (max-width: 800px){
+ 	#begquo{
+ 		font-size: 14px;
+ 	}
+ 	#endquo{
+ 		font-size: 14px;
+ 	}
+ 	#quote{
+ 		font-size: 18px;
+ 	}
+ 	#title{
+ 		font-size: 55px;
+ 	}
+ 	#lede{
+ 		font-size: 18px;
+ 		font-weight: bold;
+ 	}
+ 	.text{
+ 		font-size: 12px;
+ 		padding-top: 1%;
+ 		padding-right: 4%;
+ 	}
+ 	#uno{
+		margin-right: 7%;
+	}
+	#dos{
+		margin-right: 14%;
+	}
+	#tres{
+		margin-left: 7%;
+	}
 }
 
 
