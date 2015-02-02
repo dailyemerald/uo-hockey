@@ -13,12 +13,14 @@
 	padding-right: 1%; 
 }
 #title{
-	font-size: ;
+	padding-top: 1.75%;
+	font-size: 140px;
+	line-height: 140px;
 	font-family: times;
 	color: #080808;	
 }
 #lede{
-	font-size: ;
+	font-size: 48.5px;
 	color: black;
 }
 #container1{
@@ -49,7 +51,7 @@
 	margin-right: 23%;
 }
 #dos{
-	margin-right: 32%;
+	margin-right: 29%;
 }
 #tres{
 	margin-left: 35%;
@@ -106,6 +108,8 @@
  	}
  	#title{
  		font-size: 55px;
+ 		line-height: 35px;
+ 		padding-top: 3%;
  	}
  	#lede{
  		font-size: 18px;
