@@ -111,17 +111,19 @@
 }
 @media only screen and (max-width: 800px){
  	#begquo{
- 		font-size: 14px;
+ 		font-size: 13px;
+ 		margin-top: 13%;
  	}
  	#endquo{
- 		font-size: 14px;
+ 		font-size: 12px;
+ 		margin-top: 6%;
  	}
  	#quote{
  		font-size: 18px;
  	}
  	#title{
  		font-size: 55px;
- 		line-height: 35px;
+ 		line-height: 45px;
  		padding-top: 3%;
  	}
  	#lede{
