@@ -1,6 +1,8 @@
 .share-buttons img {
-    margin-right: 10%; 
-    width: 35%;
+    padding-left: 20%; 
+    padding-top: 13%;
+    width: 50%;
+    float: left;
     z-index: 100;
     position: relative;
 }
@@ -110,6 +112,13 @@
 	margin-bottom: 1%; 
 }
 @media only screen and (max-width: 800px){
+ 	.share-buttons img{
+ 		width: 43%;
+ 	}
+ 	#drop{
+ 		font-size: 60px;
+ 		margin-top: -20px;
+ 	}
  	#begquo{
  		font-size: 13px;
  		margin-top: 13%;
@@ -125,21 +134,26 @@
  		font-size: 55px;
  		line-height: 45px;
  		padding-top: 3%;
+ 		padding-left: 8%;
  	}
  	#lede{
  		font-size: 18px;
  		font-weight: bold;
+ 		padding-left: 8%;
  	}
  	.text{
  		font-size: 12px;
  		padding-top: 1%;
  		padding-right: 4%;
+ 		padding-left: 4%;
  	}
  	#uno{
-		margin-right: 7%;
+		margin-right: 23%;
+		margin-left: 4%;
 	}
 	#dos{
 		margin-right: 14%;
+		margin-left: 4%;
 	}
 	#tres{
 		margin-left: 7%;
