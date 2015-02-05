@@ -29,6 +29,9 @@
 	color: black;
 	letter-spacing: 0.75px;
 }
+.text{
+	color: #C1C1C1;
+}
 #container1{
 	margin-left: 5%;
 }
@@ -48,8 +51,7 @@
 }
 .p{
 	padding-left: 0;
-	padding-top: 1%;
-	font-size: 18px;
+	font-size: 19px; 
 }
 #aside{
 	padding-top: 15%;
@@ -61,19 +63,21 @@
 	height: 0.15em;
 }
 #uno{
-	margin-right: 21%;
+	margin-right: 29%;
 }
 #dos{
 	margin-right: 25%;
 }
 #tres{
-	margin-left: 35%;
+	margin-left: 5%;
+	margin-right: 12%;
 }
 .pullquote{
-	font-family: serif;
-	font-weight: bold;
-	position: absolute;
-	background-color: #FFFFFF;
+	font-family: Bevan, times;
+	position: relative;
+	font-size: 24px;
+	margin-top: 20%;
+	line-height: 150%;
 }
 #begquo{
 	width: 35%;
@@ -93,8 +97,16 @@
 	padding-bottom: 1%;
 	font-size: 24px;
 }
-#contain{
-	padding-left: 1.2%;
+.link{
+	color:  #187F24;
+}
+.link:hover{
+	text-decoration: none;
+	color:  #187F24;
+}
+.link:visited{
+	text-decoration: none;
+	color:  #187F24;
 }
 #said{
 	font-size: 75%;
@@ -108,6 +120,9 @@
 	font-size: 198%;
 	font-weight: bold;
 	letter-spacing: 0.75px;
+}
+.v{
+	padding-top: 8%;
 }
 .sm{
 	position: relative;
@@ -159,10 +174,7 @@
 		margin-left: 4%;
 	}
 	#tres{
-		margin-left: 7%;
-	}
-	#contain{
-		padding-left: 7%;
+		margin-left: 5%;
 	}
 }
 

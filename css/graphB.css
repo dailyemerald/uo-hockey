@@ -1,9 +1,7 @@
 .cont {
-    width: 100%;
     color: black;
     font-weight: bold;
-    padding-bottom: 0;
-    padding-left: 37%; 
+    padding-bottom: 0; 
 }
 .bar {
     display: inline-block;
@@ -14,24 +12,11 @@
 }
 .names {
    padding-left: 6.4%; 
-    float: left;
-    position: relative;
+   float: left;
 }
 .names p {
     font-family: helvetica;
     font-size: 12px;
-}
-#one {
-    height: 285px
-}
-#two {
-    height: 144px
-}
-#three {
-    height: 189px
-}
-#four {
-    height: 60px
 }
 #one1{
     height: 350px;
@@ -99,19 +84,5 @@
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
 }
-@media only screen and (max-width: 990px){
-    .cont{
-        padding-left: 16%;
-    }
-    .names{
-        padding-left: 4%;
-    }
-    .names p{
-        padding-left: 3%;
-        font-size: 10px;
-    }
-    .bar{
-        width: 18%;
-    }
 
 
