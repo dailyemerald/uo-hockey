@@ -79,8 +79,14 @@
 	margin-top: 20%;
 	line-height: 150%;
 }
+#pq1{
+	margin-top: 40%;
+}
 #pq2{
 	margin-top: 80%;
+}
+#pq3{
+	margin-top: 85%;
 }
 #begquo{
 	width: 35%;
@@ -151,9 +157,18 @@
  	#quote{
  		font-size: 18px;
  	}
+ 	#pq1{
+ 		margin-top: 10%; 
+ 	}
+ 	#pq2{
+		margin-top: 10%;
+	}
+	#pq3{
+		margin-top: 10%;
+	}
  	#title{
  		font-size: 55px;
- 		line-height: 45px;
+ 		line-height: 50px;
  		padding-top: 3%;
  		padding-left: 8%;
  	}
