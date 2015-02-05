@@ -1,201 +1,204 @@
 @import url(http://fonts.googleapis.com/css?family=Bevan);
-
-.share-buttons img {
-    padding-left: 15%; 
+ .share-buttons img {
+    padding-left: 15%;
     padding-top: 13%;
     width: 50%;
     float: left;
     z-index: 100;
     position: relative;
 }
-#ontop{
-	position: fixed;
-	z-index: 100;
-	width: 102.3%;
-	padding-top: 1%;
-	padding-left: 1%;
-	padding-right: 1%; 
+#ontop {
+    position: fixed;
+    z-index: 100;
+    width: 102.3%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
-#title{
-	padding-top: 1.75%;
-	font-size: 100px;
-	line-height: 140px;
-	font-family: Bevan, times;
-	color: #080808;	
-	letter-spacing: 2px;
+#title {
+    padding-top: 1.75%;
+    font-size: 100px;
+    line-height: 140px;
+    font-family: Bevan, times;
+    color: #080808;
+    letter-spacing: 2px;
 }
-#lede{
-	font-size: 48.5px;
-	color: black;
-	letter-spacing: 0.75px;
+#lede {
+    font-size: 50.5px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 0.75px;
 }
-.text{
-	color: #C1C1C1;
+.text {
+    color: #C1C1C1;
 }
-#container1{
-	margin-left: 5%;
+#container1 {
+    margin-left: 5%;
 }
-.vertLine{
-	border-left: solid #000000;
-	position: absolute;
-	left: 2%;
-	float: left;
-	overflow: hidden;
+.vertLine {
+    border-left: solid #000000;
+    position: absolute;
+    left: 2%;
+    float: left;
+    overflow: hidden;
 }
-#drop{
-	float: left;
-	margin-top: 0px;
-	margin-bottom: 0;
-	font-size: 50px;
-	padding-right: 1%;
+#drop {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 50px;
+    padding-right: 1%;
 }
-.p{
-	padding-left: 0;
-	font-size: 19px; 
+.p {
+    padding-left: 1%;
+    font-size: 19px;
 }
-#aside{
-	padding-top: 15%;
-	padding-left: 5%;
-	padding-bottom: 5%; 
+.hrLn {
+    background-color: #080808;
+    height: 0.15em;
 }
-.hrLn{
-	background-color: #080808;
-	height: 0.15em;
+#uno {
+    margin-right: 29%;
 }
-#uno{
-	margin-right: 29%;
+#dos {
+    margin-right: 25%;
 }
-#dos{
-	margin-right: 25%;
+#tres {
+    margin-left: 5%;
+    margin-right: 12%;
 }
-#tres{
-	margin-left: 5%;
-	margin-right: 12%;
+#qut{
+    font-family: Bevan, times;
+    position: relative;
+    font-size: 24px;
+    line-height: 150%;
+    padding-top: 28%;
+    margin-bottom: 35%;
+    margin-left: 5%;
 }
-.pullquote{
-	font-family: Bevan, times;
-	position: relative;
-	font-size: 24px;
-	margin-top: 20%;
-	line-height: 150%;
+.pullquote {
+    font-family: Bevan, times;
+    position: relative;
+    font-size: 24px;
+    margin-top: 20%;
+    line-height: 150%;
 }
-#pq1{
-	margin-top: 40%;
+#pq1 {
+    margin-top: 40%;
 }
-#pq2{
-	margin-top: 80%;
+#pq2 {
+    margin-top: 80%;
 }
-#pq3{
-	margin-top: 85%;
+#pq3 {
+    margin-top: 85%;
 }
-#begquo{
-	width: 35%;
-	margin-top: 28%;
-	padding-left: 1.5%;
-	padding-right: 1%;
-	padding-top: 2%;
-	padding-bottom: 1%;
-	font-size: 24px;
+#begquo {
+    width: 35%;
+    margin-top: 28%;
+    padding-left: 1.5%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 24px;
 }
-#endquo{
-	width: 35%;
-	margin-top: 20%;
-	padding-left: 1.5%;
-	padding-right: 1%;
-	padding-top: 2%;
-	padding-bottom: 1%;
-	font-size: 24px;
+#endquo {
+    width: 35%;
+    margin-top: 20%;
+    padding-left: 1.5%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 24px;
 }
-.link{
-	color:  #187F24;
+.link {
+    color: #187F24;
 }
-.link:hover{
-	text-decoration: none;
-	color:  #187F24;
+.link:hover {
+    text-decoration: none;
+    color: #187F24;
 }
-.link:visited{
-	text-decoration: none;
-	color:  #187F24;
+.link:visited {
+    text-decoration: none;
+    color: #187F24;
 }
-#said{
-	font-size: 75%;
-	font-family: serif;
-	font-weight: normal;
+#said {
+    font-size: 75%;
+    font-family: serif;
+    font-weight: normal;
 }
-#quote{
-	text-align: block;
-	padding-left: 15%;
-	padding-right: 15%;
-	font-size: 198%;
-	font-weight: bold;
-	letter-spacing: 0.75px;
+#quote {
+    text-align: block;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 198%;
+    font-weight: bold;
+    letter-spacing: 0.75px;
 }
-.v{
-	padding-top: 8%;
+.v {
+    padding-top: 38%;
 }
-.sm{
-	position: relative;
-	margin-top: 1%;
-	margin-bottom: 1%; 
+.sm {
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
-@media only screen and (max-width: 800px){
- 	.share-buttons img{
- 		width: 43%;
- 	}
- 	#drop{
- 		font-size: 60px;
- 		margin-top: -20px;
- 	}
- 	#begquo{
- 		font-size: 13px;
- 		margin-top: 13%;
- 	}
- 	#endquo{
- 		font-size: 12px;
- 		margin-top: 6%;
- 	}
- 	#quote{
- 		font-size: 18px;
- 	}
- 	#pq1{
- 		margin-top: 10%; 
- 	}
- 	#pq2{
-		margin-top: 10%;
-	}
-	#pq3{
-		margin-top: 10%;
-	}
- 	#title{
- 		font-size: 55px;
- 		line-height: 50px;
- 		padding-top: 3%;
- 		padding-left: 8%;
- 	}
- 	#lede{
- 		font-size: 18px;
- 		font-weight: bold;
- 		padding-left: 8%;
- 	}
- 	.text{
- 		font-size: 12px;
- 		padding-top: 1%;
- 		padding-right: 4%;
- 		padding-left: 4%;
- 	}
- 	#uno{
-		margin-right: 23%;
-		margin-left: 4%;
-	}
-	#dos{
-		margin-right: 14%;
-		margin-left: 4%;
-	}
-	#tres{
-		margin-left: 5%;
-	}
+@media only screen and (max-width: 800px) {
+    .share-buttons img {
+        width: 43%;
+    }
+    #drop {
+        font-size: 60px;
+        margin-top: -20px;
+    }
+    #begquo {
+        font-size: 13px;
+        margin-top: 13%;
+    }
+    #endquo {
+        font-size: 12px;
+        margin-top: 6%;
+    }
+    #quote {
+        font-size: 18px;
+    }
+    #pq1 {
+        margin-top: 10%;
+    }
+    #pq2 {
+        margin-top: 10%;
+    }
+    #pq3 {
+        margin-top: 10%;
+    }
+    #title {
+        font-size: 55px;
+        line-height: 50px;
+        padding-top: 3%;
+        padding-left: 8%;
+    }
+    #lede {
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 8%;
+    }
+    .text {
+        font-size: 12px;
+        padding-top: 1%;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    #uno {
+        margin-right: 23%;
+        margin-left: 4%;
+    }
+    #dos {
+        margin-right: 14%;
+        margin-left: 4%;
+    }
+    #tres {
+        margin-left: 5%;
+    }
 }
-
 
 
 
