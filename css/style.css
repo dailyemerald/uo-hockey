@@ -73,8 +73,8 @@
     position: relative;
     font-size: 23px;
     line-height: 150%;
-    margin-top: 30%;
-    margin-bottom: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: 5%;
 }
 .pullquote {
@@ -134,11 +134,14 @@
     font-weight: bold;
     letter-spacing: 0.75px;
 }
-#mouse{
+#mouse {
     padding: 0;
 }
-.v{
-    margin-top: -3%;
+.v {
+    position: relative;
+}
+#top {
+    margin-top: 15%;
 }
 .sm {
     position: relative;
