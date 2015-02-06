@@ -149,15 +149,7 @@
 #vid1{
     margin-top: 2%;
 }
-@media only screen and (max-width: 1000px) {
-     #uno {
-        margin-right: 13%;
-        margin-left: 4%;
-    }
-    #dos {
-        margin-right: 14%;
-        margin-left: 4%;
-    }
+@media only screen and (max-width: 900px) {
     #pq1 {
         margin-top: 5%;
     }
