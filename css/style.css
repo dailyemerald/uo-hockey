@@ -79,7 +79,6 @@
     font-family: Bevan, times;
     position: relative;
     font-size: 24px;
-    margin-top: 20%;
     line-height: 150%;
 }
 #pq1 {
@@ -89,7 +88,7 @@
     margin-top: 80%;
 }
 #pq3 {
-    margin-top: 85%;
+    margin-top: 70%;
 }
 #begquo {
     width: 35%;
@@ -133,13 +132,17 @@
     font-weight: bold;
     letter-spacing: 0.75px;
 }
-.v {
-    padding-top: 15%;
+#mouse{
+    padding: 0;
 }
 .sm {
     position: relative;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+#graph{
+    padding-top: 13%;
+    padding-bottom: 7%;
 }
 @media only screen and (max-width: 800px) {
     .share-buttons img {
@@ -200,6 +203,12 @@
     }
     .v{
         padding-top: 3%;
+    }
+    #qut{
+        font-size: 18px;
+    }
+    .pullquote{
+        font-size: 18px;
     }
 }
 
