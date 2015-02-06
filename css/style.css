@@ -71,10 +71,10 @@
 #qut{
     font-family: Bevan, times;
     position: relative;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 150%;
-    padding-top: 10%;
-    margin-bottom: 15%;
+    margin-top: 30%;
+    margin-bottom: 35%;
     margin-left: 5%;
 }
 .pullquote {
@@ -137,17 +137,21 @@
 #mouse{
     padding: 0;
 }
+.v{
+    margin-top: -3%;
+}
 .sm {
     position: relative;
     margin-top: 1%;
     margin-bottom: 1%;
 }
-#graph{
+#graph {
     padding-top: 13%;
     padding-bottom: 7%;
 }
-#vid1{
-    margin-top: 2%;
+.vtitle {
+    text-align: right;
+    font-weight: bold;
 }
 @media only screen and (max-width: 900px) {
     #pq1 {
