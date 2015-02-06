@@ -59,7 +59,7 @@
     height: 0.15em;
 }
 #uno {
-    margin-right: 40%;
+    margin-right: 30%;
 }
 #dos {
     margin-right: 28%;
@@ -149,6 +149,25 @@
 #vid1{
     margin-top: 2%;
 }
+@media only screen and (max-width: 1000px) {
+     #uno {
+        margin-right: 13%;
+        margin-left: 4%;
+    }
+    #dos {
+        margin-right: 14%;
+        margin-left: 4%;
+    }
+    #pq1 {
+        margin-top: 5%;
+    }
+    #pq2 {
+        margin-top: 5%;
+    }
+    #pq3 {
+        margin-top: 5%;
+    }
+}    
 @media only screen and (max-width: 800px) {
     .share-buttons img {
         width: 43%;
