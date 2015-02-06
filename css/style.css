@@ -45,7 +45,7 @@
 #drop {
     float: left;
     font-family: Bevan, times;
-    margin-top: -12px;
+    margin-top: 1px;
     margin-bottom: 0px;
     font-size: 55px;
     padding-right: 1%;
@@ -59,10 +59,10 @@
     height: 0.15em;
 }
 #uno {
-    margin-right: 29%;
+    margin-right: 40%;
 }
 #dos {
-    margin-right: 25%;
+    margin-right: 28%;
 }
 #tres {
     margin-left: 5%;
@@ -88,6 +88,9 @@
 }
 #pq2 {
     margin-top: 80%;
+}
+#pq3{
+    margin-top: 75%;
 }
 #begquo {
     width: 35%;
@@ -142,6 +145,9 @@
 #graph{
     padding-top: 13%;
     padding-bottom: 7%;
+}
+#vid1{
+    margin-top: 2%;
 }
 @media only screen and (max-width: 800px) {
     .share-buttons img {
