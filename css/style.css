@@ -44,7 +44,9 @@
 }
 #drop {
     float: left;
-    margin-top: -20px;
+    font-family: Bevan, times;
+    margin-top: -12px;
+    margin-bottom: 0px;
     font-size: 55px;
     padding-right: 1%;
 }
@@ -209,6 +211,9 @@
     }
     .pullquote{
         font-size: 18px;
+    }
+    #mouse{
+        color: white;
     }
 }
 
